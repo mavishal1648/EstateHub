@@ -11,19 +11,19 @@ export default function Signup() {
         <input
           type="text"
           placeholder="Enter your UserName"
-          className="border p-3 rounded-lg"
+          className="border p-3 rounded-lg focus:outline-none"
           id="username"
         />
         <input
           type="email"
           placeholder="Enter your Email"
-          className="border p-3 rounded-lg"
+          className="border p-3 rounded-lg focus:outline-none"
           id="email"
         />
         <input
           type="password"
           placeholder="Enter your Password"
-          className="border p-3 rounded-lg"
+          className="border p-3 rounded-lg focus:outline-none"
           id="password"
         />
         <button className="bg-stone-600 p-3 text-white font-semibold rounded-lg text-xl hover:opacity-90 hover:text-black">
